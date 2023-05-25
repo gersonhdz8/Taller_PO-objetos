@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/main.css">
+    <script defer src="/public/main.js"></script>
+    <title>Taller1_POO</title>
+</head>
+<body class="flex flex-col">
+    <div class="grid grid-cols-2 items-center justify-center p-8  h-max my-10 bg-white shadow w-max rounded-xl shadow-slate-300 conainer mx-auto">
+        <div class="">
+            <h1 class="text-4xl font-medium text-center">Progamación orientada a Objetos</h1>
+            <p class="text-center text-slate-500">Taller Punto 1</p>
+            <p>Clase Persona y estudiante</p>
+            <form id="form"class="grid grid-cols-1 gap-1 my-3 ">
+                <div class="grid grid-cols-2 gap-5 w-max">
+                    
+                    <div class="">
+                        
+                        <label for="nombre">
+                            <p class="pb-2 font-medium text-slate-700">Nombre</p>
+                            <input id="nombre" name="nombre"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Ingrese nombre completo">
+                        </label>
+                    </div>    
+                    <div>
+                        <label for="edad">
+                            <p class="pb-2 font-medium text-slate-700">Edad</p>
+                            <input id="edad" name="edad" type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Ingrese edad">
+                        </label>
+                    </div> 
+                    <div>
+                        <label for="sexo">
+                            <p class="pb-2 font-medium text-slate-700">Sexo</p>
+                            <input id="sexo" name="sexo"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Número de sexo">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="carrera">
+                            <p class="pb-2 font-medium text-slate-700">Carrera</p>
+                            <input id="carrera" name="carrera"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Número de sexo">
+                        </label>
+                    </div>                   
+                </div>            
+                
+                <div class="grid grid-cols-4 my-2">
+                    <button class="inline-flex items-center justify-center w-auto p-3 mx-2 my-2 font-medium text-white bg-indigo-600 border-indigo-500 rounded-lg hover:bg-indigo-500 hover:shadow" id="register" type="submit" data-accion="POST">
+                        <span>Ingresar</span>
+                    </button>                   
+                    
+                </div>         
+            </form>            
+
+        </div>
+        <div id="mensajes" class="w-full h-full m-3 border rounded-lg drop-shadow-md shadow-md bg-slate-400 bg-opacity-10 shadow-blue-400">
+            <p id="mensajeConsola"></p>
+
+        </div>
+        
+    </div>
+    <div class="grid grid-cols-2 items-center justify-center p-8  h-max my-10 bg-white shadow w-max rounded-xl shadow-slate-300 conainer mx-auto">
+        <div class="">
+            <h1 class="text-4xl font-medium text-center">Progamación orientada a Objetos</h1>
+            <p class="text-center text-slate-500">Taller Punto 2</p>
+            <p>Clase Persona y estudiante</p>
+            <form id="form2"class="grid grid-cols-1 gap-1 my-3 ">
+                <div class="grid grid-cols-2 gap-5 w-max">
+                    
+                    <div class="">
+                        
+                        <label for="nombre">
+                            <p class="pb-2 font-medium text-slate-700">Nombre</p>
+                            <input id="nombre" name="nombre"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Ingrese nombre completo">
+                        </label>
+                    </div>    
+                    <div>
+                        <label for="edad">
+                            <p class="pb-2 font-medium text-slate-700">Edad</p>
+                            <input id="edad" name="edad" type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Ingrese edad">
+                        </label>
+                    </div> 
+                    <div>
+                        <label for="sexo">
+                            <p class="pb-2 font-medium text-slate-700">Sexo</p>
+                            <input id="sexo" name="sexo"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Número de sexo">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="carrera">
+                            <p class="pb-2 font-medium text-slate-700">Carrera</p>
+                            <input id="carrera" name="carrera"  type="text" class="w-auto px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Número de sexo">
+                        </label>
+                    </div>                   
+                </div>            
+                
+                <div class="grid grid-cols-4 my-2">
+                    <button class="inline-flex items-center justify-center w-auto p-3 mx-2 my-2 font-medium text-white bg-indigo-600 border-indigo-500 rounded-lg hover:bg-indigo-500 hover:shadow" id="register" type="submit" data-accion="POST">
+                        <span>Ingresar</span>
+                    </button>                   
+                    
+                </div>         
+            </form>            
+
+        </div>
+        <div id="mensajes" class="w-full h-full m-3 border rounded-lg drop-shadow-md shadow-md bg-slate-400 bg-opacity-10 shadow-blue-400">
+            <p id="mensajeConsola2"></p>
+
+        </div>        
+    </div>
+</body>
+</html>
